@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	
+
+	<div class="sidebar">
+    <h2 style="color: #fff; margin-right: 0.5em;">Why Join Us?</h2>
+    <a href="#home" style="color: #fff;"><i class="fas fa-check"></i>Never Miss an Update</a>
+    <a href="#services" style="color: #fff;"><i class="fas fa-check"></i><strong>Get All the Details
+        regrading:</strong></a>
+    <ul>
+      <li style="color: #fff;">Exams</li>
+      <li style="color: #fff;">Colleges</li>
+      <li style="color: #fff;">Courses</li>
+    </ul>
+    <a href="#clients" style="color: #fff;"><i class="fas fa-check"></i>Stay Care Free</a>
+  </div>
+
+  <div class="main">
+    <h1>Get all the Study Material </h1>
+    <p>Don't worry, we have you covered</p>
+
+    <form name="form1" onsubmit="return show_alert()" method="post" required>
+      <div style="display: inline-block;">
+        <h4><i class="fas fa-user"></i> Full Name</h4>
+        <input type="text" class="formdisplay" name="text1" required>
+	<p class="rq">*Required Field</p>
+      </div>
+      
+  
+      <div style="display: inline-block;">
+        <h4><i class="fas fa-phone-alt"></i>Mobile Number</h4>
+        <input type="number" class="formdisplay" name="text1" required!important >
+	<p class="rq">*Required Field</p>
+      </div>
+      <br></br>
+      <div style="display: inline-block;">
+        <h4><i class="fas fa-envelope"></i>Email</h4>
+        <input type="text" name="text1" class="formdisplay" required>
+	<p class="rq">*Required Field</p>
+      </div>
+      
+  
+      <div style="display: inline-block;">
+        <h4><i class="fas fa-graduation-cap"></i>Course</h4>
+        <input type="text" name="text1" class="formdisplay" required>
+	<p class="rq">*Required Field</p>
+      </div>
+      <br></br>
+      <button type="submit" class="btn" value="Submit">Yes, Send Me the Study Material!</button>
+    </form>
+    
+    <a href="#" style="text-decoration: underline; float: right; margin-top: 10px; color: #000;">Already Registered? Click here to Login!</a>
+    
+  </div>
+  
+<script>
+function show_alert()
+{
+	alert("Order accepted :)");
+		
+}
+</script>
+
+</body>
+
+</html>

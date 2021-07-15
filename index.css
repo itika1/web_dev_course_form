@@ -1,0 +1,55 @@
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 104, 134, 0.801);
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #dbdbdb;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 25%; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+.formdisplay{
+    width: 20em;
+    height: 3em;
+    background-color: rgb(194, 194, 194);
+    border: transparent;
+    margin-right: 180px;
+}
+.btn{
+    background-color: rgba(52, 104, 134, 0.801);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.rq {
+color: 
+#FF0000;
+font-size: 8pt;
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
